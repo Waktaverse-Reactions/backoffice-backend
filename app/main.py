@@ -73,7 +73,7 @@ def create_app() -> FastAPI:
 
     app = FastAPI(
         title="Waktaverse Reactions - Backoffice API",
-        version="1.0",
+        version="2.0",
     )
 
     init_exception_handler(app)
